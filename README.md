@@ -110,5 +110,5 @@ Refer to [spec.md](spec.md) for detailed syntax specifications of `todomd`.
 - [ ] 採買食材 cr:2025-08-02
   - [ ] 牛肉
   - [ ] 蔬菜
-  - [ ] 雞蛋/no_think
+  - [ ] 雞蛋
 ```
