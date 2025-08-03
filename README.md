@@ -24,6 +24,11 @@ We believe that a plain-text, well-structured task list maximizes workflow freed
 
 Refer to [spec.md](spec.md) for detailed syntax specifications of `todomd`.
 
+## Tools
+
+*   **[todomd-cli](https://github.com/gasolin/todomd-cli)**: A powerful, interactive command-line tool for managing your `todomd` files.
+*   **[migrate_todotxt.sh](https://github.com/gasolin/todomd/blob/main/todotxt/migrate_todotxt.sh)**: A shell script to help you migrate your existing `todo.txt` files to the `todomd` format.
+
 ---
 
 ## Contribute
@@ -80,6 +85,11 @@ Refer to [spec.md](spec.md) for detailed syntax specifications of `todomd`.
 ## 開始使用
 
 查看 [spec.md](spec.md) 了解 `todomd` 的詳細語法規範。
+
+## 工具
+
+*   **[todomd-cli](https://github.com/gasolin/todomd-cli)**: 一個功能強大、互動式的命令列工具，用於管理您的 `todomd` 檔案。
+*   **[migrate_todotxt.sh](https://github.com/gasolin/todomd/blob/main/todotxt/migrate_todotxt.sh)**: 一個 shell 腳本，幫助您將現有的 `todo.txt` 檔案遷移到 `todomd` 格式。
 
 ---
 
