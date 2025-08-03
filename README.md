@@ -1,11 +1,11 @@
 README.md
 # todomd: A Personal Task Management Specification Compatible with Markdown and todo.txt
 
-`todomd` is a personal task management specification designed to combine the **flexibility of Markdown** with the **conciseness and power of todo.txt**. It leverages GitHub Flavored Markdown](https://github.github.com/gfm/) (GFM) task lists and hierarchical structures, while integrating core metadata from [todo.txt](https://github.com/todotxt/todo.txt), aiming to deliver a solution that is both human-readable and easy for machines—especially large language models (LLMs)—to parse and process.
+`todomd` is a personal task management specification designed to combine the **flexibility of Markdown** with the **conciseness and power of todo.txt**. It leverages [GitHub Flavored Markdown](https://github.github.com/gfm/) (GFM) task lists and hierarchical structures, while integrating core metadata from [todo.txt](https://github.com/todotxt/todo.txt), aiming to deliver a solution that is both human-readable and easy for machines—especially large language models (LLMs)—to parse and process.
 
 We believe that a plain-text, well-structured task list maximizes workflow freedom and seamlessly integrates with various tools and automation workflows.
 
-[中文版本 / Chinese Version]()
+[中文版本 / Chinese Version](#todomd-兼容-markdown-與-todotxt-的個人任務管理規範)
 
 ---
 
@@ -22,7 +22,7 @@ We believe that a plain-text, well-structured task list maximizes workflow freed
 
 ## Getting Started
 
-Refer to `spec.md` for detailed syntax specifications of `todomd`.
+Refer to [spec.md](spec.md) for detailed syntax specifications of `todomd`.
 
 ---
 
@@ -79,7 +79,7 @@ Refer to `spec.md` for detailed syntax specifications of `todomd`.
 
 ## 開始使用
 
-查看 `spec.md` 了解 `todomd` 的詳細語法規範。
+查看 [spec.md](spec.md) 了解 `todomd` 的詳細語法規範。
 
 ---
 

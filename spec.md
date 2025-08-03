@@ -1,8 +1,8 @@
 # todomd Specification: Syntax and Structure
 
-`todomd` is designed to provide an efficient, human- and machine-readable approach to personal task management. It combines the readability of Markdown with structured metadata, building upon GitHub Flavored Markdown (GFM) task list syntax.
+`todomd` is designed to provide an efficient, human- and machine-readable approach to personal task management. It combines the readability of Markdown with structured metadata, building upon [GitHub Flavored Markdown](https://github.github.com/gfm/) (GFM) task list syntax.
 
-[中文版本 / Chinese Version]()
+[中文版本 / Chinese Version](#todomd-規範語法與結構)
 
 ---
 

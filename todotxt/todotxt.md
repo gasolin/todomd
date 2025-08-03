@@ -2,7 +2,7 @@
 
 `todomd` aims to provide a Markdown-based task management experience compatible with the core concepts of `todo.txt`. For existing `todo.txt` users, migration is feasible, but some syntactic conversions should be carefully considered.
 
-[中文版本 / Chinese Version]()
+[中文版本 / Chinese Version](#從-todotxt-遷移至-todomd-的兼容性與考量)
 
 ---
 
