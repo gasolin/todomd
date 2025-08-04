@@ -20,19 +20,23 @@
 
 All tasks follow standard Markdown list items, leveraging GFM's task list syntax to indicate their status:
 
-* **Incomplete Task:**
+* **Incomplete Task (Todo):**
     ```markdown
     - [ ] Task description
     ```
-* **Completed Task:**
+* **In-Progress Task:**
+    ```markdown
+    - [~] Task description
+    ```
+* **Completed Task (Done):**
     ```markdown
     - [x] Task description
     ```
-* **Cancelled/Rejected Task (Optional):**
+* **Cancelled/Rejected Task (Cancelled):**
     ```markdown
     - [-] Task description
     ```
-    *(This syntax is not part of the GFM standard but can be recognized by tools to represent inactive or cancelled tasks.)*
+    *(The `~` and `-` syntaxes are not part of the GFM standard but are used by todomd tools to represent these states.)*
 
 ---
 
@@ -87,7 +91,7 @@ All tasks follow standard Markdown list items, leveraging GFM's task list syntax
 * **Example:**
     ```markdown
     - [ ] Organize annual event
-      - [ ] Confirm date and venue due:2025-09-01
+      - [~] Confirm date and venue due:2025-09-01
         - [ ] Contact venue rental
         - [ ] Coordinate guest availability
       - [ ] Develop budget
@@ -109,7 +113,7 @@ Use Markdown headings to divide tasks into logical sections, enhancing file read
     ## School Tasks
 
     - [ ] Complete math homework
-    - [ ] Memorize English vocabulary
+    - [~] Memorize English vocabulary
 
     ## Personal To-dos
 
@@ -193,19 +197,23 @@ The core philosophy behind `todomd` is balance:
 
 所有任務都是標準的 Markdown 列表項目，並利用 GFM 的任務列表語法來表示其狀態：
 
-* **未完成任務：**
+* **未完成任務 (Todo):**
     ```markdown
     - [ ] 任務描述
     ```
-* **已完成任務：**
+* **進行中任務 (In-Progress):**
+    ```markdown
+    - [~] 任務描述
+    ```
+* **已完成任務 (Done):**
     ```markdown
     - [x] 任務描述
     ```
-* **取消/拒絕任務 (可選)：**
+* **取消/拒絕任務 (Cancelled):**
     ```markdown
     - [-] 任務描述
     ```
-    （此語法可被工具識別為非活躍或已取消的任務，但它**不是** GFM 標準的一部分。）
+    （`~` 和 `-` 語法並非 GFM 標準的一部分，但 todomd 工具會使用它們來表示這些狀態。）
 
 ---
 
@@ -260,7 +268,7 @@ The core philosophy behind `todomd` is balance:
 * **範例：**
     ```markdown
     - [ ] 籌備年會
-      - [ ] 確定日期和地點 due:2025-09-01
+      - [~] 確定日期和地點 due:2025-09-01
         - [ ] 聯絡場地租賃
         - [ ] 協調嘉賓時間
       - [ ] 制定預算
@@ -282,7 +290,7 @@ The core philosophy behind `todomd` is balance:
     ## 學校任務
 
     - [ ] 完成數學作業
-    - [ ] 背英文單字
+    - [~] 背英文單字
 
     ## 個人待辦
 
